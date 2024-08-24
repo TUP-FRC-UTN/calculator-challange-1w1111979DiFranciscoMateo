@@ -1,0 +1,26 @@
+<!--este es el componente hijo, recive valores del padre y hace operaciones-->
+<!--tambien envia el resultado al componente padre-->
+
+<div class="row">
+    <div class="col">
+        <button type="button" class="btn btn-light border btn-lg" (click)="suma()">+
+        </button>
+    </div>
+    <div class="col">
+        <button type="button" class="btn btn-light border btn-lg" (click)="resta()">-</button>
+    </div>
+    <div class="col">
+        <button type="button" class="btn btn-light border btn-lg" (click)="potencia()">^</button>
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <button type="button" class="btn btn-light border btn-lg" (click)="multiplicacion()">X</button>
+    </div>
+    <div class="col">
+        <button type="button" class="btn btn-light border btn-lg" (click)="divicion()">÷</button>
+    </div>
+    <div class="col">
+        <button type="button" class="btn btn-light border btn-lg">CE</button>
+    </div>
+</div>
